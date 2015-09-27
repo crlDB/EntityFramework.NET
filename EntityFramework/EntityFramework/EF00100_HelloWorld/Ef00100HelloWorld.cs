@@ -34,13 +34,15 @@ namespace EntityFramework.EF00100_HelloWorld
         //  -> schrijven en lezen van/naar database
         //  -> maak PODO's, 'plain old data object', klassen enkel met data die tabellen voorstellen in de database
         //  -> Context, pipeline to and from database, klasse derived van DbContext
+        
         //  -> Laatste assembly download via NuGET
         //  -> via de file 'packages.config' kan je zien welk versie geinstalleerd is
         //  -> de referentie naar deze EF-assembly is automatisch toegevoegd
         //  -> in file 'using System.Data.Entity;'
+
         //  -> ctor, maak constructor en voeg connectionstring toe
         //  -> connectionstring bevat de plaats waar de database is geplaatst
-        //  -> connectionstring moet provider bevatten ''
+
         //  -> voeg in de 'MeContext' de verschillende tabellen toe via een 'DbSet'
         //  -> zorg ervoor dat alle tabellen een primary-Key-veld hebben (ID)
 
